@@ -1,0 +1,5 @@
+# Rollout to previous deployment
+kubectl rollout undo deployment/nginx-deployment
+
+# Check rollout status
+kubectl rollout status deployment/nginx-deployment
